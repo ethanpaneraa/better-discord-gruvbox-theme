@@ -1,0 +1,86 @@
+/**
+ * @name BetterDiscord - Gruvbox Theme
+ * @author Ethan Pineda (Modified for Gruvbox)
+ * @description A theme that makes Discord look like the Gruvbox color scheme.
+ * @version 0.0.3
+ */
+
+@import url(https://mwittrien.github.io/BetterDiscordAddons/Themes/DiscordRecolor/DiscordRecolor.css);
+
+:root {
+  // Gruvbox Dark Colors
+  --dark0-hard: 29, 32, 33; /* #1d2021 */
+  --dark0: 40, 40, 40; /* #282828 */
+  --dark1: 60, 56, 54; /* #3c3836 */
+  --dark2: 80, 73, 69; /* #504945 */
+  --dark3: 102, 92, 84; /* #665c54 */
+  --dark4: 124, 111, 100; /* #7c6f64 */
+  --light0: 251, 241, 199; /* #fbf1c7 */
+  --light2: 213, 196, 161; /* #d5c4a1 */
+  --light3: 189, 174, 147; /* #bdae93 */
+  --bright-red: 251, 73, 52; /* #fb4934 */
+  --bright-green: 184, 187, 38; /* #b8bb26 */
+  --bright-orange: 254, 128, 25; /* #fe8019 */
+  --neutral-yellow: 215, 153, 33; /* #d79921 */
+  --neutral-aqua: 104, 157, 106; /* #689d6a */
+
+  --settingsicons: 0;
+  --font: "Geist", "gg sans", "Noto Sans";
+
+  --accentcolor: var(--bright-orange);
+  --accentcolor2: var(--bright-red);
+  --linkcolor: var(--bright-aqua);
+  --mentioncolor: var(--neutral-yellow);
+  --successcolor: var(--bright-green);
+  --warningcolor: var(--bright-orange);
+  --dangercolor: var(--bright-red);
+
+  --textbrightest: var(--light0);
+  --textbrighter: var(--light2);
+  --textbright: var(--light3);
+  --textdark: var(--dark4);
+  --textdarker: var(--dark3);
+  --textdarkest: var(--dark2);
+
+  --backgroundaccent: var(--dark1);
+  --backgroundprimary: var(--dark0);
+  --backgroundsecondary: var(--dark0); /* Changed to dark0 to match main body */
+  --backgroundsecondaryalt: var(
+    --dark0
+  ); /* Changed to dark0 to match main body */
+  --backgroundtertiary: var(--dark0); /* Changed to dark0 to match main body */
+  --backgroundfloating: var(--dark1);
+}
+
+/* Rest of the CSS remains the same */
+.themedBackground__6b1b6 {
+  background: transparent;
+}
+
+.channelTextArea__2e60f {
+  margin-bottom: 12px;
+}
+
+.scrollerSpacer__9cd32 {
+  height: 16px;
+}
+
+.sansAttachButton__996a4 {
+  padding-left: 0;
+}
+
+.input__848cd {
+  background: transparent;
+}
+
+.quickswitcher_a3d29a {
+  padding: 0;
+}
+
+.scroller__52ae7 {
+  margin-right: 0;
+}
+
+.protip__84833 {
+  padding-inline: 10px;
+}
